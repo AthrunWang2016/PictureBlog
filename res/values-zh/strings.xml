@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">相博</string>
+    <string name="hello_world">你好!</string>
+    <string name="action_settings">设置</string>
+    <string name="button_activity_main_noblog">新建日志</string>
+    <string name="tip_activity_main_noblog">目前还没有日志喔~</string>
+    <string name="title_activity_select_mode">选择模板</string>
+    <string name="title_activity_set_mode">设置模板</string>
+    <string name="button_selectmode_activity_set_mode">继续选择模板</string>
+    <string name="button_showhtml_activity_set_mode">生成日志</string>
+    <string name="title_activity_edit_image">设置图片</string>
+    <string name="title_activity_show_html">我的日志</string>
+    <string name="text_delete_activity_show_html">删除</string>
+    <string name="text_warmingdialog_delete">确定删除？</string>
+    <string name="button_warmingdialog_sure">确定</string>
+    <string name="button_warmingdialog_cancel">取消</string>
+    <string name="toast_succsstodelete">删除成功</string>
+    <string name="toast_failtodelete">删除失败</string>
+    <string name="toast_failtodo">操作失败</string>
+    <string name="toast_filenotfound">没有找到文件</string>
+    <string name="text_textmodedialog_tip">你的感受</string>
+    <string name="toast_content_nottobeempty">内容不能为空</string>
+    <string name="toast_content_mustbe20">内容必须在20个字节以内</string>
+    
+    <string-array name="popwin_array_activity_main">
+        <item>删除</item>
+        <item>打开</item>
+        <item>取消</item>
+    </string-array>
+    
+    <string-array name="popwin_array_basemodefragment">
+        <item>拍照</item>
+        <item>图库</item>
+        <item>文字</item>
+        <item>取消</item>
+    </string-array>
+
+</resources>

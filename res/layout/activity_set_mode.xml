@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pictureblog.SetModeActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rl01"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/actionbar_blue" >
+        <TextView
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:layout_centerInParent="true"
+       		android:textColor="@android:color/white"
+       		android:textSize="18sp"
+       		android:text="@string/title_activity_set_mode" />
+        <TextView
+            android:id="@+id/tv01"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:layout_centerVertical="true"
+       		android:layout_alignParentLeft="true"
+       		android:layout_marginRight="8dp"
+       		android:textColor="@android:color/white"
+       		android:textSize="25sp"
+       		android:text="《" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+    	android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    	android:layout_marginRight="@dimen/activity_horizontal_margin"
+    	android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/rl01"
+        android:layout_above="@+id/ll02"
+        android:orientation="vertical" >
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" >
+        <Button
+	        android:id="@+id/btn01"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	       	android:layout_height="wrap_content"
+	       	android:layout_marginLeft="@dimen/activity_button_margin"
+	       	android:layout_marginRight="@dimen/activity_button_margin"
+	       	android:textColor="@android:color/white"
+	       	android:background="@color/actionbar_blue"
+	       	android:padding="2dp"
+	       	android:textSize="16sp"
+	       	android:text="@string/button_selectmode_activity_set_mode" />
+        <Button
+	        android:id="@+id/btn02"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	       	android:layout_height="wrap_content"
+	       	android:layout_marginLeft="@dimen/activity_button_margin"
+	       	android:layout_marginRight="@dimen/activity_button_margin"
+	       	android:textColor="@android:color/white"
+	       	android:background="@color/actionbar_blue"
+	       	android:textSize="16sp"
+	       	android:text="@string/button_showhtml_activity_set_mode" />
+    </LinearLayout>
+    
+    
+</RelativeLayout>

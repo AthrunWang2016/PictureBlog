@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PictureBlog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_activity_main_noblog">create blog</string>
+    <string name="tip_activity_main_noblog">there isn\'t any blogs now</string>
+    <string name="title_activity_select_mode">SelectMode</string>
+    <string name="title_activity_set_mode">SetMode</string>
+    <string name="button_selectmode_activity_set_mode">select mode</string>
+    <string name="button_showhtml_activity_set_mode">create my blog</string>
+    <string name="title_activity_edit_image">EditImage</string>
+    <string name="title_activity_show_html">MyBlog</string>
+    <string name="text_delete_activity_show_html">delete</string>
+    <string name="text_warmingdialog_delete">sure to delete？</string>
+    <string name="button_warmingdialog_sure">sure</string>
+    <string name="button_warmingdialog_cancel">cancel</string>
+    <string name="toast_succsstodelete">succss to delete</string>
+    <string name="toast_failtodelete">fail to delete</string>
+    <string name="toast_failtodo">fail to do</string>
+    <string name="toast_filenotfound">file not found</string>
+    <string name="text_textmodedialog_tip">your feel</string>
+    <string name="toast_content_nottobeempty">content can\'t be empty</string>
+    <string name="toast_content_mustbe20">content\'s size must be in 20</string>
+
+    <string-array name="popwin_array_activity_main">
+        <item>delete</item>
+        <item>open</item>
+        <item>cancel</item>
+    </string-array>
+    
+    <string-array name="popwin_array_basemodefragment">
+        <item>camera</item>
+        <item>picture</item>
+        <item>text</item>
+        <item>cancel</item>
+    </string-array>
+    
+</resources>
